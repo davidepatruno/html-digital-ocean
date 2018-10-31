@@ -10,31 +10,33 @@
   color: white;
 }
 
-.container1 {
-  background-color: red;
-  width: 90%;
-  margin: 0 5%;
-  height: 100%;
-}
-
+/* fixed_header contents */
 .fixed_header {
   position: fixed;
   top: 0;
   left: 0;
   height: 60px;
-  background-color: yellow;
+  background-color: white;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 2px lightgrey;
 }
 
-/* fixed_header contents */
+.container1 {
+  /* background-color: red; */
+  width: 90%;
+  margin: 0 5%;
+  height: 100%;
+}
+
 .brand_section {
-  background-color: grey;
+  /* background-color: grey; */
   height: 100%;
 }
 
 .logo > a img {
-  width: 100%;
+  width: 150px;
   height: 100%;
-  margin-top: 10%;
+  margin-top: 15px;
 }
 
 .navbar-nav > li > a {
@@ -42,14 +44,26 @@
 }
 
 .leftitem_section, .rightitem_section{
-  padding-top: 1%;
+  padding-top: 5px;
   height: 100%;
   /* background-color: blue; */
 }
+
 .hamburgher_menu {
   display: none;
-  padding: 20px;
-  color: #031B4E;
+  font-size: 20px;
+  padding: 8px 30px;
+  border: 1px solid #044FC8;
+  border-radius: 3px;
+  color: #044FC8;
+  margin-top: 6px;
+  transition: 1s;
+}
+
+.hamburgher_menu:hover {
+  color: white;
+  background-color: #044FC8;
+  border-radius: 100%;
 }
 
 @media screen and (max-width: 1116px) {
