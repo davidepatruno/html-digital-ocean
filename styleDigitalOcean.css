@@ -1,0 +1,51 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.fa-caret-down {
+  padding-left: 2px;
+}
+
+.tasto {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container1 {
+  background-color: red;
+  width: 90%;
+  margin: 0 5%;
+  height: 60px;
+}
+
+.fixed_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: yellow;
+}
+
+/* fixed_header contents */
+.brand_section {
+  background-color: grey;
+  height: 100%;
+}
+
+.logo {
+  padding-top: 10%;
+}
+
+.logo > a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.leftitem_section {
+  background-color: pink;
+  height: 100%;
+}
+
+.rightitem_section {
+  background-color: blue;
+  height: 100%;
+}

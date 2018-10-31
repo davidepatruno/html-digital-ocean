@@ -1,0 +1,5 @@
+/* bottone fixed_header */
+.navbar-nav > li > .nopadding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
