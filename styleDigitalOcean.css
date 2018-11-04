@@ -10,6 +10,14 @@
   color: white;
 }
 
+.color_blue {
+  color: #0045C4;
+}
+
+.background_blue {
+  background-color: #0045C4;
+}
+
 /* fixed_header contents */
 .fixed_header {
   position: fixed;
@@ -19,6 +27,7 @@
   background-color: white;
   border: 1px solid lightgrey;
   box-shadow: 2px 2px 2px lightgrey;
+  z-index: 1;
 }
 
 .container1 {
@@ -98,3 +107,48 @@
   color: white;
 }
 /* Fine fixed_header */
+
+/* inizio container2 */
+.container2 {
+  width: 100%;
+  background-color: #0146C4;
+  height: 800px;
+  margin-top: 60px;
+  padding-top: 40px;
+}
+.jumbotron {
+ height: 80%;
+ background-color: yellow;
+}
+
+.jumboright {
+  background-color: red;
+}
+
+.input_form > input {
+  width: 100%;
+  border-radius: 3px;
+  border-style: none;
+  height: 40px;
+  padding-left: 5%;
+  margin-top: 2%;
+}
+.input_form > a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 2%;
+}
+
+.input_form > a img {
+  height: 20px;
+  padding-left: 5%;
+}
+
+
+.form_buttons {
+  border: 1px solid #044FC8;
+  border-radius: 3px;
+  padding-top: 2%;
+  /* transition: 1s; */
+}
