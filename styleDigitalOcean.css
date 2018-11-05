@@ -113,6 +113,19 @@
   padding-top: 40px;
 }
 
+
+@media screen and (max-width 992px) {
+  .container2:after {
+    content:" ";
+    display: block;
+    clear: both;
+  }
+
+  .container2 {
+    height: auto;
+  }
+}
+
 .jumbotron {
  height: auto;
  background-color: transparent;
